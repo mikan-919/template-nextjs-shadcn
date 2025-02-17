@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Template with shadcn/ui
 
-## Getting Started
+このプロジェクトは、モダンなウェブアプリケーション開発のためのテンプレートです。Next.js 15とshadcn/uiを組み合わせて、美しく機能的なUIを簡単に構築できます。
 
-First, run the development server:
+## 特徴
+
+- [Next.js 14](https://nextjs.org/) - Reactフレームワーク
+- [shadcn/ui](https://ui.shadcn.com/) - 再利用可能なコンポーネント
+- TypeScript - 型安全な開発
+- Tailwind CSS - スタイリング
+- レスポンシブデザイン
+- App Router - 最新のルーティング
+- Server Components - パフォーマンス最適化
+
+## はじめに
+
+開発サーバーを起動するには：
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000)をブラウザで開いて結果を確認できます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`app/page.tsx`を編集することでページの編集を開始できます。ファイルを編集すると、ページは自動的に更新されます。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## コンポーネント
 
-## Learn More
+このテンプレートには、[shadcn/ui](https://ui.shadcn.com/)の再利用可能なコンポーネントが含まれています。これらのコンポーネントは`components.json`で設定され、`components`ディレクトリで管理されています。
 
-To learn more about Next.js, take a look at the following resources:
+## 学習リソース
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.jsについてより詳しく学ぶには：
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js ドキュメント](https://nextjs.org/docs) - Next.jsの機能とAPI
+- [Learn Next.js](https://nextjs.org/learn) - インタラクティブなNext.jsチュートリアル
+- [shadcn/ui ドキュメント](https://ui.shadcn.com/) - コンポーネントの使用方法
 
-## Deploy on Vercel
+## デプロイ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.jsアプリをデプロイする最も簡単な方法は、Next.jsの作者が提供する[Vercelプラットフォーム](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)を使用することです。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+詳しくは[Next.jsデプロイメントドキュメント](https://nextjs.org/docs/app/building-your-application/deploying)をご覧ください。
